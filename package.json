@@ -1,0 +1,26 @@
+{
+  "name": "weight",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./css/main/main.css -o ./css/postcss/postcss.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arashmehrabadi/weight.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arashmehrabadi/weight/issues"
+  },
+  "homepage": "https://github.com/arashmehrabadi/weight#readme",
+  "dependencies": {
+    "autoprefixer": "^10.4.4",
+    "postcss": "^8.4.12",
+    "postcss-cli": "^9.1.0",
+    "tailwindcss": "^3.0.23"
+  }
+}
