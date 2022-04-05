@@ -27,7 +27,7 @@ class WeightCharacteristic {
             case (net < 18.5):
                 result.innerHTML = `
                      <div class="bmi text-white"><p>BMI شما : ${net} </p></div>
-                     <P class="text-white pb-6">کمبود وزن شدید</P>
+                     <P class="text-white pb-6">کمبود وزن </P>
                 `
                 break;
             case (net >= 18.5 && net < 24.9):
